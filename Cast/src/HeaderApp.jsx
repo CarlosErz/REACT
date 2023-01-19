@@ -1,8 +1,11 @@
+import './assets/logo.svg';
+import { IMG } from './img';
+
 export function HeaderApp() {
   return (
     <div className="Header">
       <section className="Header-flex">
-        <img src="https://unavatar.io/Eanz2003" alt="" className="Header-logo" />
+        <IMG />
         <p className="Header-info">
         Servicios de calidad y rapidez
         </p>
