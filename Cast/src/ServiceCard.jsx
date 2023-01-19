@@ -4,7 +4,7 @@ export function ServiceCard({ CardTitle, Product1, Product2, Product3, Product4,
   return (
     <div className="contenido_card">
       <article className="card">
-        <img className="card-icon" src={`src/assets/${CardTitle}.svg`} alt="" />
+        <img className="card-icon" src={`src/assets/${CardTitle}.svg`} alt={`${CardTitle}`} />
         <h3 className="card-title">{CardTitle}</h3>
         <ul className="card-info">
           {products.map((product,producKey) => {
