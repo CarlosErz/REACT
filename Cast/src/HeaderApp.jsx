@@ -2,7 +2,7 @@ export function HeaderApp() {
   return (
     <div className="Header">
       <section className="Header-flex">
-        <img type="image/svg+xml" src="../assets/minilogo.svg" alt="LOGO" className="Header-logo" />
+        <img type="image/svg+xml" src="src/assets/minilogo.svg" alt="LOGO" className="Header-logo" />
         <p className="Header-info">
           Servicios de calidad y rapidez
         </p>

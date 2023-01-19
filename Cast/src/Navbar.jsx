@@ -9,17 +9,17 @@ export function Navbar() {
           </a>
         </li>
         <li className="Nav-item">
-          <a href="#Servicios" ><img src="../assets/Servicios.svg" alt="Servicios img" className="Nav-icon" />
+          <a href="#Servicios" ><img src="src/assets/Servicios.svg" alt="Servicios img" className="Nav-icon" />
             SERVICIOS
           </a>
         </li>
         <li className="Nav-item">
-          <a href="#Sobre nosotros" ><img src="../assets/Sobre nosotros.svg" alt="Sobre nosotros img" className="Nav-icon" />
+          <a href="#Sobre nosotros" ><img src="src/assets/Sobre nosotros.svg" alt="Sobre nosotros img" className="Nav-icon" />
             SOBRE NOSOTROS
           </a>
         </li>
         <li className="Nav-item">
-          <a href="#"><img src="../assets/productos.svg" alt="Productos img" className="Nav-icon" />
+          <a href="#"><img src="src/assets/productos.svg" alt="Productos img" className="Nav-icon" />
             PRODUCTOS
           </a>
         </li>

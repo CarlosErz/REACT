@@ -3,16 +3,16 @@ import { ServiceCard } from './ServiceCard.jsx'
 import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
-import '../assets/logo.svg';
-import '../assets/minilogo.svg';
-import '../assets/inicio.svg';
-import '../assets/Servicios.svg'; 
-import '../assets/Sobre nosotros.svg';
-import '../assets/productos.svg';
-import '../assets/Reparacion de celulares.svg';
-import '../assets/Computadoras.svg';
-import '../assets/Desbloqueos.svg';
-import '../assets/Reparacion de celulares.svg';
+import '/src/assets/minilogo.svg'
+import '/src/assets/inicio.svg'
+import '/src/assets/Servicios.svg'
+import '/src/assets/Sobre nosotros.svg'
+import '/src/assets/productos.svg'
+import '/src/assets/Reparacion de celulares.svg'
+import '/src/assets/Computadoras.svg'
+import '/src/assets/Desbloqueos.svg'
+
+
 
 const card = [
   {
