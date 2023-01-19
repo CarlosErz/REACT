@@ -4,9 +4,6 @@ import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
 
-
-
-
 const card = [
   {
     CardTitle: 'Reparacion de celulares',
