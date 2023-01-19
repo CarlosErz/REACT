@@ -165,7 +165,7 @@
 
 .Nav-item a {
   display: flex;
-  font-weight: 600;
+  font-weight: bold;
   text-align: center;
   flex-direction: column;
   text-decoration: none;
