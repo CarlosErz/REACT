@@ -96,6 +96,5 @@ export function App() {
       </section>
 
     </section>
-
   )
 }
