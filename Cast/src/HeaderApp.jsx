@@ -2,7 +2,7 @@ export function HeaderApp() {
   return (
     <div className="Header">
       <section className="Header-flex">
-        <img src="https://unavatar.io/Eanz2003" alt="" className="Header-logo" />
+        <img src="src/assets/minilogo.svg" alt="" className="Header-logo" />
         <p className="Header-info">
         Servicios de calidad y rapidez
         </p>
