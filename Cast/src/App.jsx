@@ -3,7 +3,7 @@ import { ServiceCard } from './ServiceCard.jsx'
 import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
-
+import './assets/logo.svg';
 
 const card = [
   {
