@@ -1,11 +1,8 @@
-import './assets/logo.svg';
-import { ilogo } from 'img.jsx';
-
 export function HeaderApp() {
   return (
     <div className="Header">
       <section className="Header-flex">
-        <ilogo></ilogo>
+        <img src="./assets/logo.svg" alt="" className="Header-logo" />
         <p className="Header-info">
         Servicios de calidad y rapidez
         </p>
