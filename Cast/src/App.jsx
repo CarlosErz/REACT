@@ -3,9 +3,12 @@ import { ServiceCard } from './ServiceCard.jsx'
 import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
+import servicios from '/src/assets/Servicios.svg'
+import sobreNosotros from '/src/assets/Sobre nosotros.svg'
 import Celulares from '/src/assets/Reparacion de celulares.svg'
 import Computadoras from'/src/assets/Computadoras.svg'
 import Desbloqueos from '/src/assets/Desbloqueos.svg'
+
 const card = [
   {
     CardTitle: 'Reparacion de celulares',
@@ -65,6 +68,7 @@ export function App() {
         <SectionName Section='Servicios'
           CardId="Servicios"
           IconId="rotate"
+          Icon= {servicios}
         ></SectionName><div className="Card-direccion">
           {
             card.map(({ CardTitle,Icon, Product1, Product2, Product3, Product4, Product5, Product6, Product7, Product8, Product9, Product10, Product11, Product12, Product13 }) => (
@@ -97,6 +101,8 @@ export function App() {
         <SectionName
           Section="Sobre nosotros"
           CardId="Sobre nosotros"
+          Icon = {sobreNosotros}
+
         ></SectionName>
       </section>
 
