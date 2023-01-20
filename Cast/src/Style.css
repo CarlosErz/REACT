@@ -16,6 +16,11 @@
   flex-direction: column;
 }
 
+.CardAboutUs img {
+  width: 20px;
+  height: 20px;
+}
+
 .contenido_card {
   background-color: rgb(255, 255, 255);
   width: 300px;
