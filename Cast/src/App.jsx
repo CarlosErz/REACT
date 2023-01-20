@@ -98,13 +98,13 @@ export function App() {
           }
         </div>
       </section>
-      <section className='about-us'>  
+      <section>  
         <SectionName
           Section="Sobre nosotros"
           CardId="Sobre nosotros"
           Icon = {sobreNosotros}
         ></SectionName>
-        
+
         <div className='card_about-us'>
           <CardAboutUs></CardAboutUs>
         </div>
