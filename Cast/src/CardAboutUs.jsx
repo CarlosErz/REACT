@@ -1,4 +1,4 @@
-import logo from '/public/minilogo.svg';
+import logo from '/src/assets/AboutUs.svg';
 export function CardAboutUs() {
   return (
     <div className="CardAboutUs">

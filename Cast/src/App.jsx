@@ -70,7 +70,8 @@ export function App() {
           CardId="Servicios"
           IconId="rotate"
           Icon= {servicios}
-        ></SectionName><div className="Card-direccion">
+        ></SectionName>
+        <div className="Card-direccion">
           {
             card.map(({ CardTitle,Icon, Product1, Product2, Product3, Product4, Product5, Product6, Product7, Product8, Product9, Product10, Product11, Product12, Product13 }) => (
               <ServiceCard
@@ -97,15 +98,14 @@ export function App() {
           }
         </div>
       </section>
-
-      <section className='about-us'>
-        
+      <section className='about-us'>  
         <SectionName
           Section="Sobre nosotros"
           CardId="Sobre nosotros"
           Icon = {sobreNosotros}
-
-        ></SectionName><div className='card_about-us'>
+        ></SectionName>
+        
+        <div className='card_about-us'>
           <CardAboutUs></CardAboutUs>
         </div>
       </section>
