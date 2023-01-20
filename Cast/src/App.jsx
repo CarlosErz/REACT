@@ -100,13 +100,14 @@ export function App() {
       </section>
 
       <section>
-        <TestImg></TestImg>
+        
         <SectionName
           Section="Sobre nosotros"
           CardId="Sobre nosotros"
           Icon = {sobreNosotros}
 
         ></SectionName>
+        <TestImg></TestImg>
       </section>
 
     </section>
