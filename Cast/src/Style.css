@@ -1,5 +1,10 @@
 @import url(vars.css);
 
+.AboutUs {
+  display: flex;
+  margin: 0;
+}
+
 .contenido_card {
   background-color: rgb(255, 255, 255);
   width: 300px;
