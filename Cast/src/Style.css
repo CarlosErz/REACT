@@ -2,6 +2,8 @@
 
 .CardAboutUs {
   display: flex;
+  align-items: center;
+  height: 50%;
   margin: 0;
 }
 
