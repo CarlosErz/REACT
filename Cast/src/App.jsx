@@ -3,11 +3,12 @@ import { ServiceCard } from './ServiceCard.jsx'
 import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
+import { CardAboutUs } from './CardAboutUs'
 import servicios from '/src/assets/Servicios.svg'
 import Celulares from '/src/assets/Reparacion de celulares.svg'
 import Computadoras from'/src/assets/Computadoras.svg'
 import Desbloqueos from '/src/assets/Desbloqueos.svg'
-import sobreNosotros from '/src/assets/image.jpg'
+import sobreNosotros from '/src/assets/Sobre nosotros.svg'
 
 const card = [
   {
@@ -97,14 +98,16 @@ export function App() {
         </div>
       </section>
 
-      <section>
+      <section className='about-us'>
         
         <SectionName
           Section="Sobre nosotros"
           CardId="Sobre nosotros"
           Icon = {sobreNosotros}
 
-        ></SectionName>
+        ></SectionName><div className='card_about-us'>
+          <CardAboutUs></CardAboutUs>
+        </div>
       </section>
 
     </section>
