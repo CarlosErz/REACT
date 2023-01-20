@@ -3,12 +3,10 @@ import { ServiceCard } from './ServiceCard.jsx'
 import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
-import "/src/assets/Productos.svg"
-import "/src/assets/Servicios.svg"
-import "/src/assets/Sobre nosotros.svg"
 const card = [
   {
     CardTitle: 'Reparacion de celulares',
+    Icon: '/src/assets/Reparacion de celulares.svg',
     Product1: 'Reparación de pantallas',
     Product2: 'Reparacion de centros de carga',
     Product3: 'Cambio de baterias',
@@ -32,6 +30,7 @@ const card = [
   },
   {
     CardTitle: 'Computadoras',
+    Icon: '/src/assets/computadoras.svg',
     Product1: 'Activacion de paqueterias Office',
     Product2: 'Activacion de paqueterias Windows',
     Product3: 'Instalacion de punto de ventas',
@@ -41,6 +40,7 @@ const card = [
   },
   {
     CardTitle: 'Desbloqueos',
+    Icon: '/src/assets/Desbloqueos.svg',
     Product1: 'Cuenta de Google',
     Product2: 'Cuenta de Samsung',
     Product3: 'Cuenta de Huawei',
@@ -64,9 +64,10 @@ export function App() {
           IconId="rotate"
         ></SectionName><div className="Card-direccion">
           {
-            card.map(({ CardTitle, Product1, Product2, Product3, Product4, Product5, Product6, Product7, Product8, Product9, Product10, Product11, Product12, Product13 }) => (
+            card.map(({ CardTitle,Icon, Product1, Product2, Product3, Product4, Product5, Product6, Product7, Product8, Product9, Product10, Product11, Product12, Product13 }) => (
               <ServiceCard
                 key={CardTitle}
+                Icon={Icon}
                 CardTitle={CardTitle}
                 Product1={Product1}
                 Product2={Product2}

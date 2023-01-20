@@ -1,4 +1,4 @@
-import inicio from "/src/assets/Productos.svg"
+import inicio from "/src/assets/inicio.svg"
 import servicios from "/src/assets/Servicios.svg"
 import sobreNosotros from "/src/assets/Sobre nosotros.svg"
 import productos from "/src/assets/Productos.svg"
