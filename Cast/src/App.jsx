@@ -4,7 +4,7 @@ import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
 import Celulares from '/src/assets/Reparacion de celulares.svg'
-import Computadoras from'/src/assets/computadoras.svg'
+import Computadoras from'/src/assets/Computadoras.svg'
 import Desbloqueos from '/src/assets/Desbloqueos.svg'
 const card = [
   {
