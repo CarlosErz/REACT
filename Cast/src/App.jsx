@@ -9,7 +9,7 @@ import sobreNosotros from '/src/assets/Sobre nosotros.svg'
 import Celulares from '/src/assets/Reparacion de celulares.svg'
 import Computadoras from'/src/assets/Computadoras.svg'
 import Desbloqueos from '/src/assets/Desbloqueos.svg'
-import SobreNosotros from '/src/assets/imagen.jpg'
+import img from '/src/assets/image.jpg'
 
 const card = [
   {
@@ -107,7 +107,8 @@ export function App() {
           Icon = {sobreNosotros}
 
         ></SectionName>
-        <TestImg></TestImg>
+        <TestImg
+        Icon={img}></TestImg>
       </section>
 
     </section>
