@@ -11,6 +11,12 @@
   flex-direction: column;
   height: 20px;
   width: 20px;
+
+}
+
+.CardAboutUs img {
+  width: 900px;
+  height: 600px
 }
 
 .contenido_card {
@@ -159,7 +165,7 @@
 }
 
 .Nav {
-  background-color:var(--tono2);
+  background-color: var(--tono2);
   bottom: 0;
   box-shadow: 0 2px 10px 0 rgb(0 0 0 / 15%);
   display: flex;
@@ -188,12 +194,13 @@
   text-align: center
 }
 
-.active{
+.active {
   filter: invert(0.10);
   opacity: 100%;
   transform: scale(1.1);
   transition: transform 2s all;
 }
+
 .Nav-icon {
   max-width: 30px;
   height: 30px;
@@ -215,27 +222,30 @@
     top: 25%;
   }
 }
+
 @media screen and (min-width:800px) {
- .Nav{
-   background-color: var(--principal);
-   box-shadow: none;
-   color: var(--tono2);
-   justify-content: right;
-   padding: 30px;
-   bottom: auto;
- }
- .Nav-item {
-  filter: invert(0);
-  color: var(--tono2);
-  left: auto;
-  font-size: 19px;
-  flex: none;
-  padding: 0 0 0px 50px;
- }
- .Nav-icon{
-  height: 0;
-  width: 0;
- }
+  .Nav {
+    background-color: var(--principal);
+    box-shadow: none;
+    color: var(--tono2);
+    justify-content: right;
+    padding: 30px;
+    bottom: auto;
+  }
+
+  .Nav-item {
+    filter: invert(0);
+    color: var(--tono2);
+    left: auto;
+    font-size: 19px;
+    flex: none;
+    padding: 0 0 0px 50px;
+  }
+
+  .Nav-icon {
+    height: 0;
+    width: 0;
+  }
 }
 
 
