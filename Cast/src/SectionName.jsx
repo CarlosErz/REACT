@@ -1,4 +1,6 @@
-
+import "/src/assets/Productos.svg"
+import "/src/assets/Servicios.svg"
+import "/src/assets/Sobre nosotros.svg"
 export function SectionName({ Section,CardId ,IconId}) {
   return (
     <div className="Section" id={CardId}>
