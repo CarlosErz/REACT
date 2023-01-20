@@ -1,11 +1,9 @@
-import logo from '/src/assets/AboutUs.svg';
+import logo from '/src/assets/AboutUs.jpg';
 export function CardAboutUs() {
   return (
     <div className="CardAboutUs">
-      <img type="image/svg+xml" src={logo} alt="LOGO" />
-        <p>
-          Servicios de calidad y rapidez
-        </p>
+      <img type="image/jpg" src={logo} alt="LOGO" />
+        <p>Servicios de calidad y rapidez</p>
         <p>!Cotiza sin compromiso!</p>
     </div>
   )
