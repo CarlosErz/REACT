@@ -3,13 +3,13 @@ import { ServiceCard } from './ServiceCard.jsx'
 import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
-import '/src/assets/Reparacion de celulares.svg'
-import '/src/assets/computadoras.svg'
-import '/src/assets/Desbloqueos.svg'
+import Celulares from '/src/assets/Reparacion de celulares.svg'
+import Computadoras from'/src/assets/computadoras.svg'
+import Desbloqueos from '/src/assets/Desbloqueos.svg'
 const card = [
   {
     CardTitle: 'Reparacion de celulares',
-    Icon: '/src/assets/Reparacion de celulares.svg',
+    Icon: Celulares,
     Product1: 'Reparación de pantallas',
     Product2: 'Reparacion de centros de carga',
     Product3: 'Cambio de baterias',
@@ -33,7 +33,7 @@ const card = [
   },
   {
     CardTitle: 'Computadoras',
-    Icon: '/src/assets/computadoras.svg',
+    Icon: Computadoras,
     Product1: 'Activacion de paqueterias Office',
     Product2: 'Activacion de paqueterias Windows',
     Product3: 'Instalacion de punto de ventas',
@@ -43,7 +43,7 @@ const card = [
   },
   {
     CardTitle: 'Desbloqueos',
-    Icon: '/src/assets/Desbloqueos.svg',
+    Icon: Desbloqueos,
     Product1: 'Cuenta de Google',
     Product2: 'Cuenta de Samsung',
     Product3: 'Cuenta de Huawei',
