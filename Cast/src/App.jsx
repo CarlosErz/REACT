@@ -3,6 +3,9 @@ import { ServiceCard } from './ServiceCard.jsx'
 import { SectionName } from './SectionName'
 import { HeaderApp } from './HeaderApp'
 import { Navbar } from './Navbar'
+import '/src/assets/Reparacion de celulares.svg'
+import '/src/assets/computadoras.svg'
+import '/src/assets/Desbloqueos.svg'
 const card = [
   {
     CardTitle: 'Reparacion de celulares',
