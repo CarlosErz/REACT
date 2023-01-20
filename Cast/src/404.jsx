@@ -7,5 +7,4 @@ export function Erro404() {
         <p>!Cotiza sin compromiso!</p>
     </div>
   )
-
 }
