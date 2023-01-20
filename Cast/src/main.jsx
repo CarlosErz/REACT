@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <App/>
 )
-const Error = ReactDOM.createRoot(document.getElementById('root'));
+const Error = ReactDOM.createRoot(document.getElementById('Error'));
 root.render(
    <Error/>
 )
