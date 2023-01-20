@@ -105,7 +105,7 @@ export function App() {
           Icon = {sobreNosotros}
         ></SectionName>
 
-        <div className='card_about-us'>
+        <div className='AboutUs'>
           <CardAboutUs></CardAboutUs>
         </div>
       </section>
