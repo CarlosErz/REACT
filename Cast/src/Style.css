@@ -6,7 +6,6 @@
 
 .CardAboutUs {
   display: flex;
-  z-index: -2;
   padding: 10px;
   gap: 5px;
   box-sizing: border-box;
