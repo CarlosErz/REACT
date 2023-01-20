@@ -1,10 +1,5 @@
 @import url(vars.css);
 
-.AboutUs {
-  max-height: 100%;
-  max-width: 100%;
-}
-
 .CardAboutUs {
   display: flex;
   padding: 10px;
@@ -17,8 +12,8 @@
 }
 
 .CardAboutUs img {
-  width: 20px;
-  height: 20px;
+  width: 900px;
+  height: 600px;
 }
 
 .contenido_card {
