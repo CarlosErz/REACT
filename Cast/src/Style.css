@@ -116,9 +116,8 @@
 
 .Header {
   height: 100vh;
-  background: var(--drega);
+  background:var(--degradado);
 }
-
 .Header-bt {
   font-size: 16px;
   font-weight: 400;
@@ -134,6 +133,7 @@
   align-items: center;
 
 }
+
 
 .Header-logo {
   width: 250px;
@@ -198,11 +198,10 @@
   filter: invert(0);
   opacity: 100%;
   transform: scale(1.1);
-  transition: transform 2s all;
+  transition: transform 1s all; 
 }
 
 .Nav-icon {
-  max-width: 30px;
   height: 30px;
   margin-bottom: 5px;
 }

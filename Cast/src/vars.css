@@ -5,10 +5,10 @@
   --logo: 3.7rem;
   --radius: 2rem;
   --title: 2rem;
-  --drega:linear-gradient(184deg, rgba(70,155,255,1) 50%, rgba(7,79,164,1) 100%);;
+  --degradado:linear-gradient(184deg, rgba(70,155,255,1) 50%, rgba(7,79,164,1) 100%);;
   --tono1: #BFBFBF;
   --tono2: #fff;
-  --tono3:#414f4f;
+  --tono3:#1E1E1E;
   --input-h: 5.3rem;
   --input-b: 3px solid #469BFF;
   --font: 'Montserrat', sans-serif;
