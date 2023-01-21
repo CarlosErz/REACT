@@ -3,6 +3,7 @@ export function HeaderApp() {
   return (
     <div className="Header">
       <section className="Header-flex">
+        <img src="" alt="" className="header-back-icon" />
         <img type="image/svg+xml" src={logo} alt="LOGO" className="Header-logo" />
         <p className="Header-info">
           Servicios de calidad y rapidez

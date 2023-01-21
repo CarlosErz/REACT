@@ -10,11 +10,11 @@ body{
   flex-direction: row;
   gap: 40px;
 }
-.option{
+.Service{
   margin-bottom: 50px;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:800px){
   .Card-direccion{
     flex-direction: column;
   }

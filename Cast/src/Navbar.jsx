@@ -1,33 +1,35 @@
+import React, { useState } from 'react'
 import inicio from "/src/assets/inicio.svg"
 import servicios from "/src/assets/Servicios.svg"
 import sobreNosotros from "/src/assets/Sobre nosotros.svg"
 import productos from "/src/assets/Productos.svg"
 import "/src/assets/Servicios.svg"
+
 export function Navbar() {
+
+  const [active, setActive] = useState(null)
+  const handleClick = (index) => {
+    setActive(index)
+  }
+
   return (
     <nav className="Nav">
-      <ul className="Nav-lis">
-        <li className="Nav-item">
-          <a href="#"><img src={inicio} alt="Inicio img" className="Nav-icon" />
-            INICIO
-          </a>
-        </li>
-        <li className="Nav-item">
-          <a href="#Servicios" ><img src={servicios} alt="Servicios img" className="Nav-icon" />
-            SERVICIOS
-          </a>
-        </li>
-        <li className="Nav-item">
-          <a href="#Sobre nosotros" ><img src={sobreNosotros} alt="Sobre nosotros img" className="Nav-icon" />
-            SOBRE NOSOTROS
-          </a>
-        </li>
-        <li className="Nav-item">
-          <a href="#"><img src={productos} alt="Productos img" className="Nav-icon" />
-            PRODUCTOS
-          </a>
-        </li>
-      </ul>
+      <a href="#Header" className={`Nav-item ${active === 0 ? 'active' : ''}`} onClick={() => handleClick(0)}>
+        <img className="Nav-icon" src={inicio} alt="" />
+        <span>INICIO</span>
+      </a>
+      <a href="#Servicios" className={`Nav-item ${active === 1 ? 'active' : ''}`} onClick={() => handleClick(1)}>
+        <img className="Nav-icon" src={servicios} alt="" />
+        <span>SERVICIOS</span>
+      </a>
+      <a href="#Sobre nosotros" className={`Nav-item ${active === 2 ? 'active' : ''}`} onClick={() => handleClick(2)}>
+        <img className="Nav-icon" src={sobreNosotros} alt="" />
+        <span>NOSOTROS</span>
+      </a>
+      <a href="#Productos" className={`Nav-item ${active === 3 ? 'active' : ''}`} onClick={() => handleClick(3)}>
+        <img className="Nav-icon" src={productos} alt="" />
+        <span>PRODUCTOS</span>
+      </a>
     </nav>
   )
 }
