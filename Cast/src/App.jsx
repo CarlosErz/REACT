@@ -66,7 +66,7 @@ export function App() {
         <Navbar></Navbar>
         <HeaderApp />
       </div>
-      <section className='option'>
+      <section className='Service'>
         <SectionName Section='Servicios'
           CardId="Servicios"
           IconId="rotate"
