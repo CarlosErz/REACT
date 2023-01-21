@@ -14,7 +14,7 @@ export function Navbar() {
 
   return (
     <nav className="Nav">
-      <a href="#Servicios" className={`Nav-item ${active === 0 ? 'active' : ''}`} onClick={() => handleClick(0)}>
+      <a href="#Header" className={`Nav-item ${active === 0 ? 'active' : ''}`} onClick={() => handleClick(0)}>
         <img className="Nav-icon" src={inicio} alt="" />
         <span>INICIO</span>
       </a>
@@ -26,7 +26,7 @@ export function Navbar() {
         <img className="Nav-icon" src={sobreNosotros} alt="" />
         <span>NOSOTROS</span>
       </a>
-      <a href="#Servicios" className={`Nav-item ${active === 3 ? 'active' : ''}`} onClick={() => handleClick(3)}>
+      <a href="#Productos" className={`Nav-item ${active === 3 ? 'active' : ''}`} onClick={() => handleClick(3)}>
         <img className="Nav-icon" src={productos} alt="" />
         <span>PRODUCTOS</span>
       </a>

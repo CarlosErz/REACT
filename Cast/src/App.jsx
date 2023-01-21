@@ -6,7 +6,7 @@ import { Navbar } from './Navbar'
 import { CardAboutUs } from './CardAboutUs'
 import servicios from '/src/assets/Servicios.svg'
 import Celulares from '/src/assets/Reparacion de celulares.svg'
-import Computadoras from'/src/assets/Computadoras.svg'
+import Computadoras from '/src/assets/Computadoras.svg'
 import Desbloqueos from '/src/assets/Desbloqueos.svg'
 import sobreNosotros from '/src/assets/Sobre nosotros.svg'
 
@@ -60,8 +60,9 @@ const card = [
 
 export function App() {
   return (
-    <section>
-      <div>
+
+    <main>
+      <div id='Header'>
         <Navbar></Navbar>
         <HeaderApp />
       </div>
@@ -69,11 +70,11 @@ export function App() {
         <SectionName Section='Servicios'
           CardId="Servicios"
           IconId="rotate"
-          Icon= {servicios}
+          Icon={servicios}
         ></SectionName>
         <div className="Card-direccion">
           {
-            card.map(({ CardTitle,Icon, Product1, Product2, Product3, Product4, Product5, Product6, Product7, Product8, Product9, Product10, Product11, Product12, Product13 }) => (
+            card.map(({ CardTitle, Icon, Product1, Product2, Product3, Product4, Product5, Product6, Product7, Product8, Product9, Product10, Product11, Product12, Product13 }) => (
               <ServiceCard
                 key={CardTitle}
                 Icon={Icon}
@@ -98,18 +99,16 @@ export function App() {
           }
         </div>
       </section>
-      <section>  
+      <section>
         <SectionName
           Section="Sobre nosotros"
           CardId="Sobre nosotros"
-          Icon = {sobreNosotros}
+          Icon={sobreNosotros}
         ></SectionName>
 
         <div className='AboutUs'>
-          <CardAboutUs></CardAboutUs>
         </div>
       </section>
-
-    </section>
+    </main>
   )
 }
