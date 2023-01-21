@@ -109,7 +109,6 @@ export function App() {
           <CardAboutUs></CardAboutUs>
         </div>
       </section>
-
     </section>
   )
 }

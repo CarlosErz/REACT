@@ -7,5 +7,4 @@ export function CardAboutUs() {
         <p>!Cotiza sin compromiso!</p>
     </div>
   )
-
 }
