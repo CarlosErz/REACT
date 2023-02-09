@@ -19,3 +19,26 @@ body{
     flex-direction: column;
   }
 }
+@media screen and (max-width:310px){
+  .Header-btn{
+    padding: 10% 10% 10% 10%;
+  }
+  .Header-flex{
+    text-align: center;
+  }
+  .Header-logo{
+    width: 90%;
+  }
+  .Section-name{
+    font-size: 30px;
+  }
+  .card{
+    width: 200px;
+  }
+  .card-title{
+    font-size: 15px;
+  }
+  .card-info{
+    font-size: 10px;
+  }
+}
