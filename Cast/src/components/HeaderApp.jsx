@@ -1,4 +1,4 @@
-import logo from '/public/minilogo.svg';
+import logo from '/public/logo.svg';
 export function HeaderApp() {
   return (
     <div className="Header">
